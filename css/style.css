@@ -29,4 +29,11 @@ body{
 .shadow-10{
     box-shadow: 0px 0px 10px #dad8d8;
 }
+
+.carousel-indicators [data-bs-target], .top{
+    background-color: brown !important;
+    z-index: 1000;
+    bottom: 0px !important;
+    top: 0;
+}
 /* COMMON CLASSES */
